@@ -2,4 +2,4 @@
 Utilizando el operador BETWEEN */
 
 SELECT * FROM producto
-WHERE (precio >= 60) AND (precio <= 200);
+WHERE precio BETWEEN 60 AND 200;
