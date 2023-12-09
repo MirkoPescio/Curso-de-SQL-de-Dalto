@@ -33,3 +33,5 @@ UNION ALL
 SELECT FirstName AS Nombre, Reward AS Recompensa, Month AS Mes
 FROM Rewards r
 LEFT JOIN Employees e ON e.EmployeeID = r.EmployeeID;
+
+
